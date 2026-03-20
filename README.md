@@ -32,7 +32,7 @@ Raw Data → Data Cleaning → EDA → Text Preprocessing → Model Building →
 
 **Key Finding**: Spam messages are significantly longer — avg ~138 chars vs ~70 chars for ham.
 
-### 3. Text Preprocessing (`transform_text_fixed`)
+### 3. Text Preprocessing (`transform_text`)
 - Lowercasing
 - Tokenization (`nltk.word_tokenize`)
 - Removal of special characters (non-alphanumeric)
@@ -94,7 +94,7 @@ nltk.download('stopwords')
 ### 4. Run the notebook
 Open `emailSpam.ipynb` in Jupyter or Google Colab and run all cells.
 
-> **Note**: If using Colab, update the dataset path in `pd.read_csv(...)` to match your Google Drive mount path.
+> **Note**: If using Colab, update the dataset path in `pd.read_csv(...)` to match your Google Drive mount path or directly use the kaggle source given.
 
 ---
 
