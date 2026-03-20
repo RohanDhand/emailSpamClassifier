@@ -148,13 +148,4 @@ Confusion Matrix:
 
 ---
 
-## Future Improvements
-
-- [ ] Try TF-IDF vectorization instead of Bag of Words
-- [ ] Experiment with ensemble models (Random Forest, XGBoost)
-- [ ] Handle class imbalance with SMOTE or class weighting
-- [ ] Deploy as a web app using Streamlit or FastAPI
-- [ ] Add a Transformer-based model (DistilBERT) for comparison
-
----
 
